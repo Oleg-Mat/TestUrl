@@ -32,14 +32,8 @@
     width: 100%;
  
 }
-li {
-  display: inline
-}
-.child {
-  
-  margin-left: auto;
-  margin-right: auto;
-}
+
+
 .main {
   text-align: center;
   height: 100vh;

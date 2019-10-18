@@ -3,7 +3,7 @@ import { Button } from 'semantic-ui-react';
 export default class Header extends Component {
   render() {
     return (
-      <div >
+      <div classname='header'>
         <a href='/'>
             <img src='/images/cryptoeye-logo.png' width="240" height="72" ></img>
           </a>
@@ -43,7 +43,7 @@ export default class Header extends Component {
                  </Button>
             </a>
             <a href='/'>
-              <Button classname="button" basic color='teal'    size='small'>
+              <Button classname="button" basic color='teal'    size='medium'>
                 КРИПТО-ВИКИ
                  </Button>
             </a>
@@ -53,12 +53,12 @@ export default class Header extends Component {
               </Button>
             </a>
             <a href='/'>
-              <Button classname="button" basic color='black'     size='small'>
+              <Button classname="button" basic color='black'     size='medium'>
                 RU
                  </Button>
             </a>
             <a href='/'>
-              <Button classname="button" basic color='black'     size='small'>
+              <Button classname="button" basic color='black'     size='medium'>
                 LOGIN
                  </Button>
             </a>
