@@ -1,0 +1,3 @@
+export const REQUEST_URL = 'REQUEST_URL';
+export const ERR_MESSAGE = 'ERR_MESSAGE';
+export const REQUESTED_FAILED = 'REQUESTED_FAILED';

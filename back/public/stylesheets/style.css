@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: RF Rostin, Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #4520ab;
+  padding: 20px;
+  /* height: 100px; */
+}
+
+header * {
+  color: #29edff;
+}
+
+.logo_container {
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  margin: auto;
+  margin-top: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.notification {
+  width: 100%;
+  background-color: lightgrey;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.error {
+  color: red;
+}
+
+.message {
+  color: green;
+}
+
+.form-field {
+  margin-bottom: 6px;
+}
+
+form label {
+  display: block;
+}
